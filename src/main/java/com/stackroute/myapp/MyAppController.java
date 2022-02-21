@@ -26,7 +26,7 @@ public class MyAppController {
 	@GetMapping("/")
 	
 	public String showUI()
-	{
+	{       System.out.println("added from git cli");
 		return "welcome";
 	}
 	
